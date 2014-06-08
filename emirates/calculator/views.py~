@@ -1,0 +1,18 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+#from contacts.models import Person
+from .models import Person, ExtraDetail
+from .form import ContactForm, DeleteForm
+
+
+# Create your views here.
+def index(request):
+    persons = Person.objects.all()
+    return render(request, 
+                  'index.html', 
+                  {'persons' : persons } )
+
+
+

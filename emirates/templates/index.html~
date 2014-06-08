@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+	<title> Emirates Miles Calculator. </title>
+	</head>
+
+	<body>
+		<h1> Emirates Miles Calculator. </h1>
+		<div id=form>
+			<form method="POST" action="#">  <div class="calcInputBlock">
+        	        <label for="ddlDepartureAirport">From</label>
+                	<div class="inputBorderWrapper">
+                	<select name="ddlDepartureAirport" id="ddlDepartureAirport" class="selectWidth240">
+			<option selected="selected" value="">Departure airport</option>
+			<option value="AMD">Ahmedabad (AMD)</option>
+			<option value="BLR">Bengaluru (Bangalore) (BLR)</option>
+			<option value="MAA">Chennai (MAA)</option>
+			<option value="DEL">Delhi (DEL)</option>
+

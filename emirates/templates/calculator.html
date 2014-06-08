@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title> Contactup {% block title %} {{title}} {% endblock title %} </title>
+    </head>
+
+    <body>
+        <form method="POST" action="#">{% csrf_token %}
+        {{ forms.as_p  }}
+        <button type="submit"> Submit </button>
+        </form>
+    </body>
+</html>
